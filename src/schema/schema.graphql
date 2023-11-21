@@ -2,6 +2,10 @@ type Query {
     books: [Books]
 }
 
+type Mutation {
+    addBook(title: String, author: String): Books
+}
+
 type Books {
     title: String
     author: String

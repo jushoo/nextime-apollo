@@ -2,3 +2,5 @@ node_modules/
 dist/
 .build/
 .serverless/
+src/__generated__
+graphql.schema.json
